@@ -1,0 +1,104 @@
+{'sd': 1234, 'dbsd': 1238, 'test': False, 'ft': False, 'backbone': 'xclip', 'db': './Dataset/JUFE', 'id': 'X-seed-1238', 'cp': False, 'pt': 'Sphere', 'ad': False, 'ap': False, 'rt': True, 'sa': False, 'lr': 8e-06, 'bs': 16, 'ps': 32, 'len': 16, 'gt': False, 'rd': False, 'epochs': 30, 'wd': 0.05, 'vf': 1, 'nw': 4}
+Training:2896	 Validation:416	 Test:816
+
+Grid configration
+Patter = Sphere
+Image Size = (4096, 8192)
+Patch Size = (32, 32)
+Sampling Stride = 1
+Adaptive FoV = False
+
+
+load configuration
+divided
+16
+Setting backbone: fragments_backbone
+True
+Setting head: vqa_head
+Epoch[1/30] - loss: 0.3144	 PLCC: 0.2736	 SRCC: 0.2211	 RMSE: 0.9713	 dt = 1243.891 sec
+[Validiation] - loss: 0.1673	 PLCC: 0.6490	 SRCC: 0.5502	 RMSE: 0.5685	 dt = 202.105 sec
+
+[BEST - 1] - PLCC: 0.6490	 SRCC: 0.5502	 RMSE: 0.5685
+[Test] - loss: 0.1707	 PLCC: 0.6430	 SRCC: 0.5766	 RMSE: 0.5962	 dt = 384.111 sec
+Epoch[2/30] - loss: 0.2003	 PLCC: 0.5773	 SRCC: 0.5290	 RMSE: 0.8246	 dt = 1330.932 sec
+[Validiation] - loss: 0.1634	 PLCC: 0.6650	 SRCC: 0.6112	 RMSE: 0.5581	 dt = 208.747 sec
+
+[BEST - 2] - PLCC: 0.6650	 SRCC: 0.6112	 RMSE: 0.5581
+[Test] - loss: 0.1662	 PLCC: 0.6628	 SRCC: 0.6300	 RMSE: 0.5829	 dt = 382.488 sec
+Epoch[3/30] - loss: 0.1894	 PLCC: 0.6061	 SRCC: 0.5590	 RMSE: 0.8033	 dt = 1340.284 sec
+[Validiation] - loss: 0.1765	 PLCC: 0.6320	 SRCC: 0.5633	 RMSE: 0.5791	 dt = 219.881 sec
+Epoch[4/30] - loss: 0.1711	 PLCC: 0.6549	 SRCC: 0.6224	 RMSE: 0.7632	 dt = 1342.686 sec
+[Validiation] - loss: 0.1572	 PLCC: 0.6911	 SRCC: 0.6701	 RMSE: 0.5401	 dt = 202.273 sec
+
+[BEST - 4] - PLCC: 0.6911	 SRCC: 0.6701	 RMSE: 0.5401
+[Test] - loss: 0.1560	 PLCC: 0.6972	 SRCC: 0.6784	 RMSE: 0.5580	 dt = 385.208 sec
+Epoch[5/30] - loss: 0.1436	 PLCC: 0.7160	 SRCC: 0.7027	 RMSE: 0.7049	 dt = 1340.795 sec
+[Validiation] - loss: 0.1169	 PLCC: 0.7734	 SRCC: 0.7632	 RMSE: 0.4737	 dt = 208.313 sec
+
+[BEST - 5] - PLCC: 0.7734	 SRCC: 0.7632	 RMSE: 0.4737
+[Test] - loss: 0.1260	 PLCC: 0.7652	 SRCC: 0.7612	 RMSE: 0.5012	 dt = 389.872 sec
+Epoch[6/30] - loss: 0.1228	 PLCC: 0.7590	 SRCC: 0.7535	 RMSE: 0.6575	 dt = 1338.022 sec
+[Validiation] - loss: 0.0966	 PLCC: 0.8162	 SRCC: 0.8068	 RMSE: 0.4318	 dt = 205.685 sec
+
+[BEST - 6] - PLCC: 0.8162	 SRCC: 0.8068	 RMSE: 0.4318
+[Test] - loss: 0.1153	 PLCC: 0.7824	 SRCC: 0.7755	 RMSE: 0.4848	 dt = 386.137 sec
+Epoch[7/30] - loss: 0.1210	 PLCC: 0.7456	 SRCC: 0.7419	 RMSE: 0.6729	 dt = 1329.773 sec
+[Validiation] - loss: 0.1206	 PLCC: 0.7597	 SRCC: 0.7326	 RMSE: 0.4859	 dt = 205.587 sec
+Epoch[8/30] - loss: 0.1026	 PLCC: 0.7925	 SRCC: 0.7899	 RMSE: 0.6159	 dt = 1370.611 sec
+[Validiation] - loss: 0.1010	 PLCC: 0.8086	 SRCC: 0.8019	 RMSE: 0.4396	 dt = 227.254 sec
+Epoch[9/30] - loss: 0.1038	 PLCC: 0.8062	 SRCC: 0.8075	 RMSE: 0.5975	 dt = 1482.725 sec
+[Validiation] - loss: 0.1115	 PLCC: 0.7851	 SRCC: 0.7699	 RMSE: 0.4628	 dt = 223.526 sec
+Epoch[10/30] - loss: 0.0811	 PLCC: 0.8444	 SRCC: 0.8445	 RMSE: 0.5410	 dt = 1395.882 sec
+[Validiation] - loss: 0.0730	 PLCC: 0.8568	 SRCC: 0.8532	 RMSE: 0.3853	 dt = 214.489 sec
+
+[BEST - 10] - PLCC: 0.8568	 SRCC: 0.8532	 RMSE: 0.3853
+[Test] - loss: 0.1028	 PLCC: 0.8078	 SRCC: 0.7982	 RMSE: 0.4589	 dt = 405.645 sec
+Epoch[11/30] - loss: 0.0822	 PLCC: 0.8505	 SRCC: 0.8509	 RMSE: 0.5312	 dt = 1404.964 sec
+[Validiation] - loss: 0.0917	 PLCC: 0.8294	 SRCC: 0.8216	 RMSE: 0.4174	 dt = 216.561 sec
+Epoch[12/30] - loss: 0.0737	 PLCC: 0.8607	 SRCC: 0.8596	 RMSE: 0.5141	 dt = 1403.617 sec
+[Validiation] - loss: 0.0911	 PLCC: 0.8281	 SRCC: 0.8271	 RMSE: 0.4188	 dt = 207.224 sec
+Epoch[13/30] - loss: 0.0721	 PLCC: 0.8633	 SRCC: 0.8608	 RMSE: 0.5097	 dt = 1329.574 sec
+[Validiation] - loss: 0.0856	 PLCC: 0.8413	 SRCC: 0.8342	 RMSE: 0.4039	 dt = 207.561 sec
+Epoch[14/30] - loss: 0.0649	 PLCC: 0.8810	 SRCC: 0.8826	 RMSE: 0.4777	 dt = 1332.906 sec
+[Validiation] - loss: 0.0852	 PLCC: 0.8407	 SRCC: 0.8329	 RMSE: 0.4047	 dt = 206.405 sec
+Epoch[15/30] - loss: 0.0585	 PLCC: 0.8977	 SRCC: 0.8997	 RMSE: 0.4449	 dt = 1324.834 sec
+[Validiation] - loss: 0.0867	 PLCC: 0.8391	 SRCC: 0.8397	 RMSE: 0.4065	 dt = 255.760 sec
+Epoch[16/30] - loss: 0.0578	 PLCC: 0.8996	 SRCC: 0.9027	 RMSE: 0.4410	 dt = 1784.092 sec
+[Validiation] - loss: 0.0811	 PLCC: 0.8423	 SRCC: 0.8378	 RMSE: 0.4028	 dt = 276.078 sec
+Epoch[17/30] - loss: 0.0581	 PLCC: 0.8974	 SRCC: 0.8990	 RMSE: 0.4456	 dt = 1766.043 sec
+[Validiation] - loss: 0.0733	 PLCC: 0.8586	 SRCC: 0.8466	 RMSE: 0.3830	 dt = 275.760 sec
+Epoch[18/30] - loss: 0.0523	 PLCC: 0.9121	 SRCC: 0.9139	 RMSE: 0.4141	 dt = 1456.487 sec
+[Validiation] - loss: 0.0915	 PLCC: 0.8228	 SRCC: 0.8130	 RMSE: 0.4247	 dt = 205.079 sec
+Epoch[19/30] - loss: 0.0533	 PLCC: 0.9080	 SRCC: 0.9090	 RMSE: 0.4230	 dt = 1343.908 sec
+[Validiation] - loss: 0.0937	 PLCC: 0.8260	 SRCC: 0.8183	 RMSE: 0.4212	 dt = 207.727 sec
+Epoch[20/30] - loss: 0.0517	 PLCC: 0.9168	 SRCC: 0.9183	 RMSE: 0.4032	 dt = 1344.198 sec
+[Validiation] - loss: 0.0951	 PLCC: 0.8187	 SRCC: 0.8129	 RMSE: 0.4291	 dt = 207.669 sec
+Epoch[21/30] - loss: 0.0473	 PLCC: 0.9193	 SRCC: 0.9191	 RMSE: 0.3975	 dt = 1343.438 sec
+[Validiation] - loss: 0.0758	 PLCC: 0.8571	 SRCC: 0.8491	 RMSE: 0.3849	 dt = 205.745 sec
+Epoch[22/30] - loss: 0.0442	 PLCC: 0.9258	 SRCC: 0.9264	 RMSE: 0.3819	 dt = 1345.336 sec
+[Validiation] - loss: 0.0846	 PLCC: 0.8416	 SRCC: 0.8371	 RMSE: 0.4036	 dt = 204.988 sec
+Epoch[23/30] - loss: 0.0421	 PLCC: 0.9314	 SRCC: 0.9354	 RMSE: 0.3675	 dt = 1346.160 sec
+[Validiation] - loss: 0.0826	 PLCC: 0.8485	 SRCC: 0.8434	 RMSE: 0.3954	 dt = 206.634 sec
+Epoch[24/30] - loss: 0.0390	 PLCC: 0.9377	 SRCC: 0.9393	 RMSE: 0.3509	 dt = 1353.472 sec
+[Validiation] - loss: 0.0746	 PLCC: 0.8608	 SRCC: 0.8566	 RMSE: 0.3803	 dt = 212.116 sec
+
+[BEST - 24] - PLCC: 0.8608	 SRCC: 0.8566	 RMSE: 0.3803
+[Test] - loss: 0.0788	 PLCC: 0.8581	 SRCC: 0.8505	 RMSE: 0.3996	 dt = 389.506 sec
+Epoch[25/30] - loss: 0.0402	 PLCC: 0.9382	 SRCC: 0.9406	 RMSE: 0.3495	 dt = 1335.533 sec
+[Validiation] - loss: 0.0715	 PLCC: 0.8698	 SRCC: 0.8630	 RMSE: 0.3686	 dt = 209.859 sec
+
+[BEST - 25] - PLCC: 0.8698	 SRCC: 0.8630	 RMSE: 0.3686
+[Test] - loss: 0.0868	 PLCC: 0.8418	 SRCC: 0.8330	 RMSE: 0.4201	 dt = 385.356 sec
+Epoch[26/30] - loss: 0.0360	 PLCC: 0.9425	 SRCC: 0.9441	 RMSE: 0.3376	 dt = 1339.611 sec
+[Validiation] - loss: 0.0761	 PLCC: 0.8594	 SRCC: 0.8521	 RMSE: 0.3820	 dt = 208.626 sec
+Epoch[27/30] - loss: 0.0354	 PLCC: 0.9436	 SRCC: 0.9453	 RMSE: 0.3345	 dt = 1347.468 sec
+[Validiation] - loss: 0.0732	 PLCC: 0.8634	 SRCC: 0.8549	 RMSE: 0.3770	 dt = 208.695 sec
+Epoch[28/30] - loss: 0.0353	 PLCC: 0.9437	 SRCC: 0.9448	 RMSE: 0.3339	 dt = 1344.733 sec
+[Validiation] - loss: 0.0755	 PLCC: 0.8558	 SRCC: 0.8497	 RMSE: 0.3865	 dt = 208.890 sec
+Epoch[29/30] - loss: 0.0313	 PLCC: 0.9500	 SRCC: 0.9523	 RMSE: 0.3154	 dt = 1342.142 sec
+[Validiation] - loss: 0.0720	 PLCC: 0.8652	 SRCC: 0.8609	 RMSE: 0.3746	 dt = 209.298 sec
+Epoch[30/30] - loss: 0.0334	 PLCC: 0.9487	 SRCC: 0.9509	 RMSE: 0.3194	 dt = 1345.469 sec
+[Validiation] - loss: 0.0704	 PLCC: 0.8692	 SRCC: 0.8631	 RMSE: 0.3695	 dt = 207.776 sec
+
+[BEST - 30] - PLCC: 0.8692	 SRCC: 0.8631	 RMSE: 0.3695
+[Test] - loss: 0.0850	 PLCC: 0.8462	 SRCC: 0.8326	 RMSE: 0.4148	 dt = 390.087 sec

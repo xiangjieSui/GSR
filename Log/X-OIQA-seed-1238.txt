@@ -1,0 +1,114 @@
+{'sd': 1234, 'dbsd': 1238, 'test': False, 'ft': False, 'backbone': 'xclip', 'db': './Dataset/OIQA', 'id': 'X-seed-1238', 'cp': False, 'pt': 'Sphere', 'ad': False, 'ap': False, 'rt': True, 'sa': False, 'lr': 8e-07, 'bs': 8, 'ps': 32, 'len': 16, 'gt': False, 'rd': False, 'epochs': 30, 'wd': 0.05, 'vf': 1, 'nw': 4}
+Training:240	 Validation:20	 Test:60
+
+Grid configration
+Patter = Sphere
+Image Size = (6660, 13320)
+Patch Size = (32, 32)
+Sampling Stride = 1
+Adaptive FoV = False
+
+
+load configuration
+divided
+16
+Setting backbone: fragments_backbone
+True
+Setting head: vqa_head
+/media/computer/Disk/sui/FoV-based_TF/corr.py:18: RuntimeWarning: overflow encountered in exp
+  yhat = (beta1 - beta2) / (1 + np.exp(- (x - beta3) / beta4)) + beta2
+/usr/local/anaconda3/envs/fovqa/lib/python3.8/site-packages/scipy/optimize/_minpack_py.py:881: OptimizeWarning: Covariance of the parameters could not be estimated
+  warnings.warn('Covariance of the parameters could not be estimated',
+Epoch[1/30] - loss: 0.3609	 PLCC: 0.1354	 SRCC: 0.0596	 RMSE: 0.9886	 dt = 286.158 sec
+[Validiation] - loss: 0.1237	 PLCC: 0.6593	 SRCC: 0.6132	 RMSE: 1.6815	 dt = 39.121 sec
+
+[BEST - 1] - PLCC: 0.6593	 SRCC: 0.6132	 RMSE: 1.6815
+[Test] - loss: 0.2172	 PLCC: 0.5369	 SRCC: 0.5140	 RMSE: 1.7634	 dt = 84.290 sec
+Epoch[2/30] - loss: 0.2686	 PLCC: 0.2988	 SRCC: 0.2866	 RMSE: 0.9522	 dt = 301.504 sec
+[Validiation] - loss: 0.0647	 PLCC: 0.8085	 SRCC: 0.8111	 RMSE: 1.3160	 dt = 39.691 sec
+
+[BEST - 2] - PLCC: 0.8085	 SRCC: 0.8111	 RMSE: 1.3160
+[Test] - loss: 0.0898	 PLCC: 0.7909	 SRCC: 0.7802	 RMSE: 1.2790	 dt = 84.992 sec
+Epoch[3/30] - loss: 0.2230	 PLCC: 0.5126	 SRCC: 0.4986	 RMSE: 0.8567	 dt = 297.932 sec
+[Validiation] - loss: 0.0487	 PLCC: 0.8458	 SRCC: 0.8239	 RMSE: 1.1930	 dt = 39.996 sec
+
+[BEST - 3] - PLCC: 0.8458	 SRCC: 0.8239	 RMSE: 1.1930
+[Test] - loss: 0.0478	 PLCC: 0.8797	 SRCC: 0.8680	 RMSE: 0.9938	 dt = 84.467 sec
+Epoch[4/30] - loss: 0.1248	 PLCC: 0.7355	 SRCC: 0.7219	 RMSE: 0.6759	 dt = 301.571 sec
+[Validiation] - loss: 0.0404	 PLCC: 0.8798	 SRCC: 0.8555	 RMSE: 1.0628	 dt = 39.909 sec
+
+[BEST - 4] - PLCC: 0.8798	 SRCC: 0.8555	 RMSE: 1.0628
+[Test] - loss: 0.0414	 PLCC: 0.9150	 SRCC: 0.8859	 RMSE: 0.8432	 dt = 84.563 sec
+Epoch[5/30] - loss: 0.1318	 PLCC: 0.7569	 SRCC: 0.7439	 RMSE: 0.6520	 dt = 298.011 sec
+[Validiation] - loss: 0.0302	 PLCC: 0.9176	 SRCC: 0.9082	 RMSE: 0.8889	 dt = 40.067 sec
+
+[BEST - 5] - PLCC: 0.9176	 SRCC: 0.9082	 RMSE: 0.8889
+[Test] - loss: 0.0398	 PLCC: 0.9181	 SRCC: 0.8893	 RMSE: 0.8284	 dt = 84.902 sec
+Epoch[6/30] - loss: 0.0989	 PLCC: 0.8255	 SRCC: 0.8136	 RMSE: 0.5631	 dt = 295.103 sec
+[Validiation] - loss: 0.0338	 PLCC: 0.9221	 SRCC: 0.8977	 RMSE: 0.8652	 dt = 39.864 sec
+Epoch[7/30] - loss: 0.1092	 PLCC: 0.8350	 SRCC: 0.8073	 RMSE: 0.5491	 dt = 295.854 sec
+[Validiation] - loss: 0.0281	 PLCC: 0.9207	 SRCC: 0.9022	 RMSE: 0.8730	 dt = 40.034 sec
+Epoch[8/30] - loss: 0.0743	 PLCC: 0.8764	 SRCC: 0.8535	 RMSE: 0.4805	 dt = 299.904 sec
+[Validiation] - loss: 0.0337	 PLCC: 0.9314	 SRCC: 0.9187	 RMSE: 0.8137	 dt = 39.880 sec
+
+[BEST - 8] - PLCC: 0.9314	 SRCC: 0.9187	 RMSE: 0.8137
+[Test] - loss: 0.0338	 PLCC: 0.9383	 SRCC: 0.9244	 RMSE: 0.7227	 dt = 85.001 sec
+Epoch[9/30] - loss: 0.0809	 PLCC: 0.8646	 SRCC: 0.8329	 RMSE: 0.5013	 dt = 297.368 sec
+[Validiation] - loss: 0.0303	 PLCC: 0.9383	 SRCC: 0.9187	 RMSE: 0.7736	 dt = 39.985 sec
+Epoch[10/30] - loss: 0.0669	 PLCC: 0.8858	 SRCC: 0.8703	 RMSE: 0.4631	 dt = 297.560 sec
+[Validiation] - loss: 0.0273	 PLCC: 0.9375	 SRCC: 0.9150	 RMSE: 0.7784	 dt = 40.195 sec
+Epoch[11/30] - loss: 0.0660	 PLCC: 0.8956	 SRCC: 0.8659	 RMSE: 0.4438	 dt = 300.450 sec
+[Validiation] - loss: 0.0228	 PLCC: 0.9516	 SRCC: 0.9338	 RMSE: 0.6874	 dt = 39.651 sec
+
+[BEST - 11] - PLCC: 0.9516	 SRCC: 0.9338	 RMSE: 0.6874
+[Test] - loss: 0.0218	 PLCC: 0.9587	 SRCC: 0.9523	 RMSE: 0.5944	 dt = 85.390 sec
+Epoch[12/30] - loss: 0.0521	 PLCC: 0.9207	 SRCC: 0.8931	 RMSE: 0.3895	 dt = 304.028 sec
+[Validiation] - loss: 0.0152	 PLCC: 0.9673	 SRCC: 0.9488	 RMSE: 0.5669	 dt = 39.808 sec
+
+[BEST - 12] - PLCC: 0.9673	 SRCC: 0.9488	 RMSE: 0.5669
+[Test] - loss: 0.0212	 PLCC: 0.9610	 SRCC: 0.9529	 RMSE: 0.5780	 dt = 85.200 sec
+Epoch[13/30] - loss: 0.0570	 PLCC: 0.9082	 SRCC: 0.8904	 RMSE: 0.4176	 dt = 297.186 sec
+[Validiation] - loss: 0.0207	 PLCC: 0.9626	 SRCC: 0.9436	 RMSE: 0.6061	 dt = 39.777 sec
+Epoch[14/30] - loss: 0.0521	 PLCC: 0.9168	 SRCC: 0.8953	 RMSE: 0.3984	 dt = 299.810 sec
+[Validiation] - loss: 0.0198	 PLCC: 0.9548	 SRCC: 0.9330	 RMSE: 0.6644	 dt = 39.997 sec
+Epoch[15/30] - loss: 0.0491	 PLCC: 0.9175	 SRCC: 0.9017	 RMSE: 0.3968	 dt = 296.199 sec
+[Validiation] - loss: 0.0171	 PLCC: 0.9621	 SRCC: 0.9549	 RMSE: 0.6101	 dt = 40.014 sec
+
+[BEST - 15] - PLCC: 0.9621	 SRCC: 0.9549	 RMSE: 0.6101
+[Test] - loss: 0.0223	 PLCC: 0.9556	 SRCC: 0.9500	 RMSE: 0.6157	 dt = 85.218 sec
+Epoch[16/30] - loss: 0.0647	 PLCC: 0.9032	 SRCC: 0.8853	 RMSE: 0.4283	 dt = 301.619 sec
+[Validiation] - loss: 0.0186	 PLCC: 0.9632	 SRCC: 0.9451	 RMSE: 0.6007	 dt = 40.086 sec
+Epoch[17/30] - loss: 0.0553	 PLCC: 0.9125	 SRCC: 0.9010	 RMSE: 0.4082	 dt = 299.769 sec
+[Validiation] - loss: 0.0280	 PLCC: 0.9498	 SRCC: 0.9293	 RMSE: 0.6997	 dt = 40.003 sec
+Epoch[18/30] - loss: 0.0525	 PLCC: 0.9209	 SRCC: 0.9063	 RMSE: 0.3890	 dt = 298.440 sec
+[Validiation] - loss: 0.0251	 PLCC: 0.9546	 SRCC: 0.9458	 RMSE: 0.6661	 dt = 40.323 sec
+Epoch[19/30] - loss: 0.0534	 PLCC: 0.9155	 SRCC: 0.8958	 RMSE: 0.4013	 dt = 299.988 sec
+[Validiation] - loss: 0.0212	 PLCC: 0.9594	 SRCC: 0.9270	 RMSE: 0.6304	 dt = 39.923 sec
+Epoch[20/30] - loss: 0.0507	 PLCC: 0.9230	 SRCC: 0.9049	 RMSE: 0.3839	 dt = 302.911 sec
+[Validiation] - loss: 0.0131	 PLCC: 0.9616	 SRCC: 0.9518	 RMSE: 0.6139	 dt = 39.718 sec
+Epoch[21/30] - loss: 0.0489	 PLCC: 0.9322	 SRCC: 0.9121	 RMSE: 0.3612	 dt = 302.094 sec
+[Validiation] - loss: 0.0167	 PLCC: 0.9634	 SRCC: 0.9406	 RMSE: 0.5998	 dt = 39.847 sec
+Epoch[22/30] - loss: 0.0454	 PLCC: 0.9268	 SRCC: 0.9097	 RMSE: 0.3747	 dt = 300.781 sec
+[Validiation] - loss: 0.0109	 PLCC: 0.9745	 SRCC: 0.9609	 RMSE: 0.5014	 dt = 39.748 sec
+
+[BEST - 22] - PLCC: 0.9745	 SRCC: 0.9609	 RMSE: 0.5014
+[Test] - loss: 0.0207	 PLCC: 0.9607	 SRCC: 0.9542	 RMSE: 0.5802	 dt = 85.181 sec
+Epoch[23/30] - loss: 0.0530	 PLCC: 0.9204	 SRCC: 0.9034	 RMSE: 0.3901	 dt = 300.217 sec
+[Validiation] - loss: 0.0141	 PLCC: 0.9749	 SRCC: 0.9661	 RMSE: 0.4975	 dt = 39.798 sec
+
+[BEST - 23] - PLCC: 0.9749	 SRCC: 0.9661	 RMSE: 0.4975
+[Test] - loss: 0.0191	 PLCC: 0.9659	 SRCC: 0.9627	 RMSE: 0.5413	 dt = 84.995 sec
+Epoch[24/30] - loss: 0.0610	 PLCC: 0.9250	 SRCC: 0.8998	 RMSE: 0.3791	 dt = 301.073 sec
+[Validiation] - loss: 0.0206	 PLCC: 0.9646	 SRCC: 0.9315	 RMSE: 0.5896	 dt = 39.904 sec
+Epoch[25/30] - loss: 0.0532	 PLCC: 0.9281	 SRCC: 0.9120	 RMSE: 0.3715	 dt = 298.643 sec
+[Validiation] - loss: 0.0143	 PLCC: 0.9732	 SRCC: 0.9421	 RMSE: 0.5140	 dt = 39.867 sec
+Epoch[26/30] - loss: 0.0417	 PLCC: 0.9332	 SRCC: 0.9205	 RMSE: 0.3586	 dt = 301.260 sec
+[Validiation] - loss: 0.0179	 PLCC: 0.9663	 SRCC: 0.9473	 RMSE: 0.5753	 dt = 39.973 sec
+Epoch[27/30] - loss: 0.0436	 PLCC: 0.9370	 SRCC: 0.9214	 RMSE: 0.3484	 dt = 297.777 sec
+[Validiation] - loss: 0.0121	 PLCC: 0.9699	 SRCC: 0.9564	 RMSE: 0.5448	 dt = 39.987 sec
+Epoch[28/30] - loss: 0.0423	 PLCC: 0.9395	 SRCC: 0.9260	 RMSE: 0.3418	 dt = 303.870 sec
+[Validiation] - loss: 0.0116	 PLCC: 0.9746	 SRCC: 0.9654	 RMSE: 0.5010	 dt = 39.985 sec
+Epoch[29/30] - loss: 0.0534	 PLCC: 0.9284	 SRCC: 0.9053	 RMSE: 0.3709	 dt = 305.706 sec
+[Validiation] - loss: 0.0108	 PLCC: 0.9732	 SRCC: 0.9579	 RMSE: 0.5147	 dt = 40.072 sec
+Epoch[30/30] - loss: 0.0490	 PLCC: 0.9401	 SRCC: 0.9283	 RMSE: 0.3401	 dt = 299.215 sec
+[Validiation] - loss: 0.0110	 PLCC: 0.9700	 SRCC: 0.9518	 RMSE: 0.5441	 dt = 39.896 sec

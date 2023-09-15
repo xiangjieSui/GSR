@@ -1,0 +1,31 @@
+name: FAST-VQA-B-Refactor-1*4
+num_epochs: 30
+l_num_epochs: 0
+warmup_epochs: 2.5
+ema: true
+save_model: true
+batch_size: 16
+num_workers: 6
+
+wandb:
+    project_name: VQA_Experiments_2022
+
+model:
+    type: DiViDeAddEvaluator
+    args:
+        backbone:
+            fragments:
+                checkpoint: false
+                pretrained: 
+        backbone_size: swin_tiny_grpb
+        backbone_preserve_keys: fragments
+        divide_head: false
+        vqa_head:
+            in_channels: 768
+            hidden_channels: 64
+            
+optimizer:
+    lr: !!float 1e-3
+    backbone_lr_mult: !!float 1e-1
+    wd: 0.05
+ 
