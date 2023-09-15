@@ -23,7 +23,7 @@ $\color{red}{We\ are\ cleaning\ up\ the\ code}$
 * __Pre-trained Models__    
    We test three 3D backbone: Swin-T, ConvNet, and Xclip. The scanpath generator is derived from our CVPR 2023 paper ([Paper](https://ece.uwaterloo.ca/~z70wang/publications/CVPR23_scanPath360Image.pdf) & [Code](https://github.com/xiangjieSui/ScanDMM)) You can download these pre-trained models from corresponding authors. Alternatively, you can also download them from the sources we provided [[Google Drive]](https://drive.google.com/drive/folders/1Mw3Ep4FJU8G0Ft9DCgPBj1LLFesMUnhU?usp=drive_link).
    ```
-   cd ./models
+   cd ./model
    ls
    convnext_tiny_1k_224_ema.pth,
    swin_tiny_patch244_window877_kinetics400_1k.pth,
@@ -48,16 +48,16 @@ cd ./checkpoints
 ls
 JUFE-X-seed-1238.pth
 
-cd ./models
+cd ./model
 ls
 JUFE-X-seed-1238 
 ```
 # Test  
 We provided some pre-trained models [[here]](https://drive.google.com/drive/folders/1djA83UB5bcf-ue5YvW6CUa5e9A_-KE20?usp=drive_link).
 ```
-cd ./models
+cd ./model
 ls
-scandmm-seed-128.pkl
+scandmm-seed-1238.pkl
 CVIQ-X-seed-1238,
 OIQA-X-seed-1238,
 JUFE-X-seed-1238
