@@ -28,7 +28,7 @@ $\color{red}{We\ are\ cleaning\ up\ the\ code}$
    convnext_tiny_1k_224_ema.pth,
    swin_tiny_patch244_window877_kinetics400_1k.pth,
    k400_32_16.pth
-   scandmm-pretrain-model_lr-0.0003_bs-64_epoch-435.pkl
+   scandmm-seed-1238.pkl
    ```
 # Training  
 * __Runing Command__  
