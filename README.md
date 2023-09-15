@@ -53,9 +53,11 @@ ls
 JUFE-X-seed-1238 
 ```
 # Test  
+We provided some pre-trained models [[here]](https://drive.google.com/drive/folders/1djA83UB5bcf-ue5YvW6CUa5e9A_-KE20?usp=drive_link).
 ```
 cd ./models
 ls
+scandmm-seed-128.pkl
 CVIQ-X-seed-1238,
 OIQA-X-seed-1238,
 JUFE-X-seed-1238
