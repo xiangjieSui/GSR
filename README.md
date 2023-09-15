@@ -60,7 +60,7 @@ OIQA-X-seed-1238.pth,
 JUFE-X-seed-1238.pth
 
 # test
-python -u train.py --test=True --cp=True --db='./Dataset/JUFE' --backbone='xclip' --dbsd=1234 
+python -u train.py --test=True --cp=True --db='./Dataset/JUFE' --backbone='xclip' --dbsd=1238 
 ```
 
 # Bibtex
