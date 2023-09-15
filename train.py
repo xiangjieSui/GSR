@@ -411,8 +411,7 @@ if __name__ == '__main__':
 
     args = parser.parse_args()
     print(vars(args))
-    if args.test:
-        assert args.cp == True, 'Pretrained weights are missing'
+     
     torch.manual_seed(args.sd)
     np.random.seed(args.sd)
     torch.backends.cudnn.benchmark = True
