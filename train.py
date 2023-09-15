@@ -387,8 +387,8 @@ if __name__ == '__main__':
                         help='3D backbone, default = xclip')
     parser.add_argument('--db', '--dataset', default='./Dataset/JUFE', type=str,
                         help='dataset path, default = ./Dataset/JUFE')
-    parser.add_argument('--id', '--model_id', default='GSR-X', type=str,
-                        help='model_id, default = GSR-X')
+    parser.add_argument('--id', '--model_id', default='JUFE-X-seed-1238', type=str,
+                        help='model_id, default = JUFE-X-seed-1238')
     parser.add_argument('--cp', '-checkpoint', default=False, type=bool,
                         help='Loading checkpoint, default = False')
     parser.add_argument('--lr', default=8e-6, type=float,
@@ -420,7 +420,7 @@ if __name__ == '__main__':
 
     ''' Load Dataset '''
     reSplit = False
-    dataset_name = args.db.split('\\')[-1]
+    dataset_name = args.db.split('/')[-1]
     train_loader, val_loader, test_loader = load_dataset(reSplit)
 
     ''' GSR Configuration '''
