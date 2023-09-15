@@ -51,13 +51,12 @@ ls
 JUFE-X-seed-1238 
 ```
 # Test  
-We provide three checkpoints of GSR-X models that were trained on CVIQ, OIQA, and JUFE, respective. You can get them from [[Google Drive]](https://drive.google.com/drive/folders/1djA83UB5bcf-ue5YvW6CUa5e9A_-KE20?usp=drive_link).
 ```
-cd ./checkpoints
+cd ./models
 ls
-CVIQ-X-seed-1238.pth,
-OIQA-X-seed-1238.pth,
-JUFE-X-seed-1238.pth
+CVIQ-X-seed-1238,
+OIQA-X-seed-1238,
+JUFE-X-seed-1238
 
 # test
 python -u train.py --test=True --cp=True --db='./Dataset/JUFE' --backbone='xclip' --dbsd=1238 
