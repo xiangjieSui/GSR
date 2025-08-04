@@ -66,11 +66,13 @@ python -u train.py --test=True --cp=True --db='./Dataset/JUFE' --backbone='xclip
 
 # Bibtex
 ```
-@article{gsr2023,
-  title={Perceptual Quality Assessment of 360° Images Based on Generative Scanpath Representation},
-  author={Xiangjie Sui and Hanwei Zhu and Xuelin Liu and Yuming Fang and Shiqi Wang and Zhou Wang},
-  year={2023},
-  eprint={2309.03472},
-  archivePrefix={arXiv},
-  primaryClass={cs.CV}
-}
+@article{gsr25,
+  author={Sui, Xiangjie and Zhu, Hanwei and Liu, Xuelin and Fang, Yuming and Wang, Shiqi and Wang, Zhou},
+  journal={IEEE Transactions on Image Processing}, 
+  title={Perceptual Quality Assessment of 360{\degree} Images Based on Generative Scanpath Representation}, 
+  year={2025},
+  volume={34},
+  number={},
+  pages={4485-4499},
+  doi={10.1109/TIP.2025.3583181}}
+
